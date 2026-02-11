@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone - Responsive E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <header class="top-bar">
+        <div class="container">
+            <span>Explore Plus features</span>
+            <a href="#">Login</a>
+        </div>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-left">
+                <img src="logo.png" alt="Flipkart Logo" class="logo">
+            </div>
+            <div class="nav-center">
+                <form class="search-form">
+                    <input type="search" placeholder="Search for products, brands and more" required>
+                    <button type="submit">🔍</button>
+                </form>
+            </div>
+            <ul class="nav-right">
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Orders</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <table class="category-table">
+                <tr>
+                    <td>Grocery</td><td>Electronics</td><td>Mobiles</td><td>Fashion</td><td>Home</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Featured Products Grid -->
+    <section class="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="iphone14.png" alt="iPhone 14">
+                    <h3>iPhone 14</h3>
+                    <p class="price">₹65,999</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Repeat 7 more cards for grid -->
+                <div class="product-card">
+                    <img src="galaxy s23.png" alt="Samsung S23 ulta">
+                    <h3>Samsung Galaxy S23 ultra</h3>
+                    <p class="price">₹52,999</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="macbook air.png" alt="Laptop">
+                    <h3>MacBook Air</h3>
+                    <p class="price">₹99,999</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Form -->
+    <footer>
+        <form class="contact-form">
+            <fieldset>
+                <legend>Customer Support</legend>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <select>
+                    <option>Order Issue</option>
+                    <option>Refund</option>
+                    <option>Delivery</option>
+                </select>
+                <button>Submit</button>
+            </fieldset>
+        </form>
+    </footer>
+</body>
+</html>
